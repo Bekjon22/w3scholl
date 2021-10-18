@@ -1,0 +1,30 @@
+@media (max-width: 1000px) {
+  .box {
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 850px) {
+  .left, .right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .right {
+    display: none;
+  }
+}
+
+@media (max-width:1000px) {
+  .langColsContainer {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .langColsContainer {
+    grid-template-columns: auto;
+  }
+}
